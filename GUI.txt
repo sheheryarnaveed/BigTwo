@@ -1,0 +1,24 @@
+Additional GUI elements:
+
+1) When the game ends, a fancy text appears stating "XYZ Player 
+Wins!"
+
+2) I used the following libraries to introduce the sounds:
+
+	import javax.sound.sampled.AudioInputStream;
+	import javax.sound.sampled.AudioSystem;
+	import javax.sound.sampled.Clip;
+
+	- When player plays a valid hand a specific sound is 
+	  produced making the next player vigilant that the player
+	  has done its turn
+	- When a player plays an invalid turn then another
+	  different type of sound is produced
+	- When the game ends, a victory sound clip is played.
+	  (In case the sound clip is played and player, presses
+	   the restart button then I have coded in a way that 
+	   sound clip stops!)
+
+3) I used an additional element called JScroll Pane to ensure 
+that the text is visible even after the the box is completely 
+filled.
